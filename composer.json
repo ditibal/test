@@ -1,0 +1,27 @@
+{
+    "name": "ditibal/test",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andrew Sergeev",
+            "email": "ditibal@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ditibal\\test\\": "src"
+        }
+    }
+}
