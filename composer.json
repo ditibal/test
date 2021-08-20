@@ -23,5 +23,8 @@
         "psr-4": {
             "ditibal\\test\\": "src"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
